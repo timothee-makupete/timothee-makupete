@@ -1,6 +1,6 @@
 # 👋 Hello, I'm Timothy Phiri
 
-## 🚀 Full-Stack Software Developer | AI Enthusiast | Educator
+## 🚀 Full-Stack Software Developer | Educator
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-3a86ff?style=for-the-badge&logo=netlify&logoColor=white)](https://capsulcode.netlify.app/)
 [![Email](https://img.shields.io/badge/Email-timotheemakupete@gmail.com-ef476f?style=for-the-badge&logo=gmail&logoColor=white)](mailto:timotheemakupete@gmail.com)
