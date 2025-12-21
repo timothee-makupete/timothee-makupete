@@ -1,4 +1,4 @@
-# 👋 Hello, I'm Timothy Phiri
+# 👋 Hello, I'm Timothy Makupete Phiri
 
 ## 🚀 Full-Stack Software Developer | Educator
 
