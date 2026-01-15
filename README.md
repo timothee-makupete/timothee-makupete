@@ -9,10 +9,14 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/timothee-makupete)
 
 ## 📊 GitHub Stats
+<!-- GitHub Stats Card -->
+![Timothy's GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=timothee-makupete&show_icons=true&theme=radical&count_private=true&hide_border=true)
 
-![Timothy's GitHub Stats](https://github-readme-stats.vercel.app/api?username=timothee-makupete&show_icons=true&theme=radical&count_private=true&hide_border=true&include_all_commits=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=timothee-makupete&layout=compact&theme=radical&hide_border=true&langs_count=10)
-![GitHub Streak](https://streak-stats.demolab.com/?user=timothee-makupete&theme=radical&hide_border=true)
+<!-- Top Languages Card -->
+![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=timothee-makupete&layout=compact&theme=radical&hide_border=true)
+
+<!-- GitHub Streak Stats -->
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=timothee-makupete&theme=radical&hide_border=true)
 
 ## 🎯 About Me
 
