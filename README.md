@@ -208,13 +208,7 @@ Enterprise SaaS for educational institutions
 - **Live:** [scoolverse.netlify.app](https://scoolverse.netlify.app/)
 - **Features:** Full school ERP, parent portals, analytics dashboards
 
-### 🎓 **Mzuzu Academy** – School Website
-High-performance educational platform
-- **Tech:** HTML, CSS, JavaScript, PHP, MySQL
-- **Optimization:** 99% Google PageSpeed score
-- **Accessibility:** WCAG 2.1 compliant
-- **Live:** [mzuzuacademy.org](https://www.mzuzuacademy.org/)
-- **Features:** CMS integration, event management, parent portal
+
 
 ## 📈 Development Workflow
 
