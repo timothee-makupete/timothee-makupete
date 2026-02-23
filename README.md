@@ -12,7 +12,9 @@
 | | |
 | :---: | :---: |
 | **GitHub Stats** | **Top Languages** |
-| <img src="https://github-readme-stats.vercel.app/api?username=timothee-makupete&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats" /> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=timothee-makupete&layout=compact&theme=radical&langs_count=8" alt="Top Languages" /> |
+| ![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=timothee-makupete&theme=radical) | ![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=timothee-makupete&theme=radical) |
+| **Commit Activity** | **Most Used Languages** |
+| ![Commit Activity](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=timothee-makupete&theme=radical&utcOffset=2) | ![Most Used Languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=timothee-makupete&theme=radical) |
 | **Streak Stats** | **Contribution Stats** |
 | <img src="https://github-readme-streak-stats.herokuapp.com/?user=timothee-makupete&theme=radical" alt="GitHub Streak" /> | <img src="https://github-contributor-stats.vercel.app/api?username=timothee-makupete&limit=5&theme=radical&combine_all_yearly_contributions=true" alt="Contribution Stats" /> |
 
