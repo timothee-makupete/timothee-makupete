@@ -3,6 +3,7 @@ const typingTexts = ['Software Developer', 'Full-Stack Engineer', 'AI Enthusiast
 let textIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
+let typingTimeout;
 
 function typeText() {
     const currentText = typingTexts[textIndex];
@@ -10,10 +11,17 @@ function typeText() {
     
     if (!typingElement) return;
     
+    // Clear any existing timeout
+    if (typingTimeout) {
+        clearTimeout(typingTimeout);
+    }
+    
     if (isDeleting) {
+        // Deleting text
         typingElement.textContent = currentText.substring(0, charIndex - 1);
         charIndex--;
     } else {
+        // Typing text
         typingElement.textContent = currentText.substring(0, charIndex + 1);
         charIndex++;
     }
@@ -21,15 +29,25 @@ function typeText() {
     let typeSpeed = isDeleting ? 50 : 100;
     
     if (!isDeleting && charIndex === currentText.length) {
+        // Finished typing, pause before deleting
         typeSpeed = 2000;
         isDeleting = true;
     } else if (isDeleting && charIndex === 0) {
+        // Finished deleting, move to next text
         isDeleting = false;
         textIndex = (textIndex + 1) % typingTexts.length;
         typeSpeed = 500;
     }
     
-    setTimeout(typeText, typeSpeed);
+    typingTimeout = setTimeout(typeText, typeSpeed);
+}
+
+// Clean up function to prevent memory leaks
+function cleanupTyping() {
+    if (typingTimeout) {
+        clearTimeout(typingTimeout);
+        typingTimeout = null;
+    }
 }
 
 // Skill Bars Animation on Scroll
@@ -899,24 +917,87 @@ function initParticles() {
     animateParticles();
 }
 
-// Mobile Navigation Toggle
-const mobileToggle = document.getElementById('mobile-toggle');
-const navLinks = document.getElementById('nav-links');
-
-mobileToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-    mobileToggle.innerHTML = navLinks.classList.contains('active') 
-        ? '<i class="fas fa-times"></i>' 
-        : '<i class="fas fa-bars"></i>';
+// Mobile Navigation Toggle - More robust implementation
+document.addEventListener('DOMContentLoaded', function() {
+    // Multiple attempts to ensure elements are loaded
+    setTimeout(() => {
+        initMobileNavigation();
+    }, 100);
+    
+    setTimeout(() => {
+        initMobileNavigation();
+    }, 500);
 });
 
-// Close mobile menu when clicking a link
-document.querySelectorAll('.nav-links a').forEach(link => {
-    link.addEventListener('click', () => {
-        navLinks.classList.remove('active');
-        mobileToggle.innerHTML = '<i class="fas fa-bars"></i>';
+function initMobileNavigation() {
+    const mobileToggle = document.getElementById('mobile-toggle');
+    const navLinks = document.getElementById('nav-links');
+    
+    console.log('Mobile navigation init:', { 
+        mobileToggle: !!mobileToggle, 
+        navLinks: !!navLinks,
+        windowWidth: window.innerWidth 
     });
-});
+
+    if (mobileToggle && navLinks) {
+        // Remove any existing listeners to prevent duplicates
+        mobileToggle.replaceWith(mobileToggle.cloneNode(true));
+        const newToggle = document.getElementById('mobile-toggle');
+        
+        newToggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            console.log('Mobile toggle clicked!');
+            
+            navLinks.classList.toggle('active');
+            
+            const isActive = navLinks.classList.contains('active');
+            this.innerHTML = isActive 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+            
+            console.log('Nav active state:', isActive);
+        });
+        
+        // Also add touch event for mobile
+        newToggle.addEventListener('touchstart', function(e) {
+            e.preventDefault();
+            console.log('Mobile toggle touched!');
+            this.click();
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                newToggle.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!newToggle.contains(e.target) && !navLinks.contains(e.target)) {
+                navLinks.classList.remove('active');
+                newToggle.innerHTML = '<i class="fas fa-bars"></i>';
+            }
+        });
+        
+        // Handle escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+                newToggle.innerHTML = '<i class="fas fa-bars"></i>';
+            }
+        });
+        
+        console.log('Mobile navigation initialized successfully');
+    } else {
+        console.warn('Mobile navigation elements not found:', {
+            mobileToggle: !!mobileToggle,
+            navLinks: !!navLinks
+        });
+    }
+}
 
 // Header scroll effect
 window.addEventListener('scroll', () => {
