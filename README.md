@@ -4,8 +4,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-3a86ff?style=for-the-badge&logo=netlify&logoColor=white)](https://capsulcode.netlify.app/)
 [![Email](https://img.shields.io/badge/Email-timotheemakupete@gmail.com-ef476f?style=for-the-badge&logo=gmail&logoColor=white)](mailto:timotheemakupete@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/timothee-makupete-22b944312)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/timothee-makupete)
 
 ## 📊 GitHub Analytics
@@ -13,12 +12,24 @@
 | | |
 | :---: | :---: |
 | **GitHub Stats** | **Top Languages** |
-| ![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=timothee-makupete&theme=radical) | ![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=timothee-makupete&theme=radical) |
-| **Commit Activity** | **Most Used Languages** |
-| ![Commit Activity](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=timothee-makupete&theme=radical&utcOffset=2) | ![Most Used Languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=timothee-makupete&theme=radical) |
+| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=timothee-makupete&show_icons=true&theme=radical&include_all_commits=true&count_private=true) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=timothee-makupete&layout=compact&theme=radical&langs_count=8) |
+| **Streak Stats** | **Contribution Stats** |
+| ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=timothee-makupete&theme=radical) | ![Contribution Stats](https://github-contributor-stats.vercel.app/api?username=timothee-makupete&limit=5&theme=radical&combine_all_yearly_contributions=true) |
+
+## 📌 Pinned Repositories
+
+| | |
+| :---: | :---: |
+| [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=bookzbee&theme=radical)](https://github.com/timothee-makupete/bookzbee) | [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=textsurf&theme=radical)](https://github.com/timothee-makupete/textsurf) |
+| [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=Ottisonline&theme=radical)](https://github.com/timothee-makupete/Ottisonline) | [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=capsulcode&theme=radical)](https://github.com/timothee-makupete/capsulcode) |
+| [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=Library-management-system&theme=radical)](https://github.com/timothee-makupete/Library-management-system) | |
 
 <!-- Activity Graph -->
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=timothee-makupete&theme=radical&hide_border=true&area=true)
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=timothee-makupete&label=Profile%20Views&color=ef476f&style=flat" alt="Profile Views"/>
+</p>
 
 ## 🎯 About Me
 
@@ -182,7 +193,31 @@ Modern responsive website with animations and fast UI
 - **Architecture:** Micro-frontends, CI/CD with GitHub Actions
 - **Performance:** 95+ Lighthouse score, PWA capabilities
 - **Live:** [capsulcode.netlify.app](https://capsulcode.netlify.app/)
-- **Features:** Service showcase, AI integration demos, interactive UI
+- **Repo:** [github.com/timothee-makupete/capsulcode](https://github.com/timothee-makupete/capsulcode)
+
+### 📚 **bookzbee** – Book Management Platform
+[Add description for bookzbee]
+- **Tech:** [Add your tech stack]
+- **Features:** [Add key features]
+- **Repo:** [github.com/timothee-makupete/bookzbee](https://github.com/timothee-makupete/bookzbee)
+
+### 🌊 **textsurf** – Text Processing Tool
+[Add description for textsurf]
+- **Tech:** [Add your tech stack]
+- **Features:** [Add key features]
+- **Repo:** [github.com/timothee-makupete/textsurf](https://github.com/timothee-makupete/textsurf)
+
+### 🏨 **Ottisonline** – Online Booking Platform
+[Add description for Ottisonline]
+- **Tech:** [Add your tech stack]
+- **Features:** [Add key features]
+- **Repo:** [github.com/timothee-makupete/Ottisonline](https://github.com/timothee-makupete/Ottisonline)
+
+### 📖 **Library Management System**
+Complete library management solution
+- **Tech:** [Add your tech stack]
+- **Features:** [Add key features]
+- **Repo:** [github.com/timothee-makupete/Library-management-system](https://github.com/timothee-makupete/Library-management-system)
 
 ### 🏨 **Akuka Lodge** – Hotel Management System
 Enterprise hotel management with real-time booking
@@ -207,8 +242,6 @@ Enterprise SaaS for educational institutions
 - **Scale:** Supports 100+ schools, 50,000+ users
 - **Live:** [scoolverse.netlify.app](https://scoolverse.netlify.app/)
 - **Features:** Full school ERP, parent portals, analytics dashboards
-
-
 
 ## 📈 Development Workflow
 
