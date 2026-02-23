@@ -8,11 +8,17 @@
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](#)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/timothee-makupete)
 
-## 📊 GitHub Stats
+## 📊 GitHub Analytics
 
-![Timothy's GitHub Stats](https://github-readme-stats.vercel.app/api?username=timothee-makupete&show_icons=true&theme=radical&count_private=true&hide_border=true&include_all_commits=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=timothee-makupete&layout=compact&theme=radical&hide_border=true&langs_count=10)
-![GitHub Streak](https://streak-stats.demolab.com/?user=timothee-makupete&theme=radical&hide_border=true)
+| | |
+| :---: | :---: |
+| **GitHub Stats** | **Top Languages** |
+| ![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=timothee-makupete&theme=radical) | ![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=timothee-makupete&theme=radical) |
+| **Commit Activity** | **Most Used Languages** |
+| ![Commit Activity](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=timothee-makupete&theme=radical&utcOffset=2) | ![Most Used Languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=timothee-makupete&theme=radical) |
+
+<!-- Activity Graph -->
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=timothee-makupete&theme=radical&hide_border=true&area=true)
 
 ## 🎯 About Me
 
@@ -202,13 +208,7 @@ Enterprise SaaS for educational institutions
 - **Live:** [scoolverse.netlify.app](https://scoolverse.netlify.app/)
 - **Features:** Full school ERP, parent portals, analytics dashboards
 
-### 🎓 **Mzuzu Academy** – School Website
-High-performance educational platform
-- **Tech:** HTML, CSS, JavaScript, PHP, MySQL
-- **Optimization:** 99% Google PageSpeed score
-- **Accessibility:** WCAG 2.1 compliant
-- **Live:** [mzuzuacademy.org](https://www.mzuzuacademy.org/)
-- **Features:** CMS integration, event management, parent portal
+
 
 ## 📈 Development Workflow
 
