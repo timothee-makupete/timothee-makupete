@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+👋,+I'm+Timothy;+Full-Stack+Developer;+AI+Specialist;+Educator" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+👋,+I'm+Timothy;+Full-Stack+Developer;+AI+Specialist;+Educator;+Tech+Entrepreneur" />
 </h1>
 
 <div align="center">
@@ -21,10 +21,10 @@
 
 ## 🎯 Professional Summary
 
-> **Full-Stack Developer with 4+ years of experience** building scalable web applications and AI-powered solutions. Currently pursuing B.Ed ICT at Mzuzu University, bridging technology and education to create impactful digital experiences. Proven track record in cloud architecture, DevOps, and leading technical projects from conception to deployment.
+> **Full-Stack Developer with 4+ years of experience** building scalable web applications and AI-powered solutions. Graduate of **Bachelor of Education (ICT)** from Mzuzu University, bridging technology and education to create impactful digital experiences. Founder of Capsulcode Technologies with proven track record in cloud architecture, DevOps, and leading technical projects from conception to deployment.
 
-📍 **Based in:** Mzuzu, Malawi  
-🎓 **Education:** B.Ed ICT (2022-2025) | MSCE (2015-2019)  
+📍 **Based in:** Lilongwe, Malawi  
+🎓 **Education:** B.Ed ICT Graduate - Mzuzu University  
 💼 **Business:** Founder @ Capsulcode Technologies (BRN-JRSP5LV)
 
 <br/>
@@ -53,6 +53,10 @@
       <img src="https://techstack-generator.vercel.app/vuejs-icon.svg" alt="Vue.js" width="45" height="45" />
       <br/>Vue.js
     </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" width="45" height="45" />
+      <br/>Next.js
+    </td>
   </tr>
   <tr>
     <td align="center" width="90">
@@ -60,20 +64,154 @@
       <br/>Django
     </td>
     <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="45" height="45" />
+      <br/>FastAPI
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="45" height="45" />
+      <br/>Node.js
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="45" height="45" />
+      <br/>PHP
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" alt="Laravel" width="45" height="45" />
+      <br/>Laravel
+    </td>
+    <td align="center" width="90">
+      <img src="https://techstack-generator.vercel.app/graphql-icon.svg" alt="GraphQL" width="45" height="45" />
+      <br/>GraphQL
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="90">
       <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="45" height="45" />
       <br/>MySQL
     </td>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="45" height="45" />
-      <br/>REST API
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="45" height="45" />
+      <br/>PostgreSQL
     </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="45" height="45" />
+      <br/>MongoDB
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" width="45" height="45" />
+      <br/>Redis
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg" alt="Firebase" width="45" height="45" />
+      <br/>Firebase
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite" width="45" height="45" />
+      <br/>SQLite
+    </td>
+  </tr>
+  <tr>
     <td align="center" width="90">
       <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="45" height="45" />
       <br/>Docker
     </td>
     <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" width="45" height="45" />
+      <br/>K8s
+    </td>
+    <td align="center" width="90">
       <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="45" height="45" />
       <br/>AWS
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="GCP" width="45" height="45" />
+      <br/>GCP
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" width="45" height="45" />
+      <br/>Azure
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Terraform" width="45" height="45" />
+      <br/>Terraform
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="45" height="45" />
+      <br/>TensorFlow
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="45" height="45" />
+      <br/>PyTorch
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" width="45" height="45" />
+      <br/>Pandas
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" width="45" height="45" />
+      <br/>NumPy
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter" width="45" height="45" />
+      <br/>Jupyter
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV" width="45" height="45" />
+      <br/>OpenCV
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" width="45" height="45" />
+      <br/>Flutter
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" alt="Swift" width="45" height="45" />
+      <br/>Swift
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="45" height="45" />
+      <br/>Kotlin
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Native" width="45" height="45" />
+      <br/>React Native
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" alt="Android" width="45" height="45" />
+      <br/>Android
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" alt="iOS" width="45" height="45" />
+      <br/>iOS
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="45" height="45" />
+      <br/>Git
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins" width="45" height="45" />
+      <br/>Jenkins
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" alt="Nginx" width="45" height="45" />
+      <br/>Nginx
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" width="45" height="45" />
+      <br/>Linux
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash" width="45" height="45" />
+      <br/>Bash
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman" width="45" height="45" />
+      <br/>Postman
     </td>
   </tr>
 </table>
