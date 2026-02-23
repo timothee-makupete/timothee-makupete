@@ -12,20 +12,17 @@
 | | |
 | :---: | :---: |
 | **GitHub Stats** | **Top Languages** |
-| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=timothee-makupete&show_icons=true&theme=radical&include_all_commits=true&count_private=true) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=timothee-makupete&layout=compact&theme=radical&langs_count=8) |
+| <img src="https://github-readme-stats.vercel.app/api?username=timothee-makupete&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats" /> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=timothee-makupete&layout=compact&theme=radical&langs_count=8" alt="Top Languages" /> |
 | **Streak Stats** | **Contribution Stats** |
-| ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=timothee-makupete&theme=radical) | ![Contribution Stats](https://github-contributor-stats.vercel.app/api?username=timothee-makupete&limit=5&theme=radical&combine_all_yearly_contributions=true) |
+| <img src="https://github-readme-streak-stats.herokuapp.com/?user=timothee-makupete&theme=radical" alt="GitHub Streak" /> | <img src="https://github-contributor-stats.vercel.app/api?username=timothee-makupete&limit=5&theme=radical&combine_all_yearly_contributions=true" alt="Contribution Stats" /> |
 
 ## 📌 Pinned Repositories
 
 | | |
 | :---: | :---: |
-| [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=bookzbee&theme=radical)](https://github.com/timothee-makupete/bookzbee) | [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=textsurf&theme=radical)](https://github.com/timothee-makupete/textsurf) |
-| [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=Ottisonline&theme=radical)](https://github.com/timothee-makupete/Ottisonline) | [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=capsulcode&theme=radical)](https://github.com/timothee-makupete/capsulcode) |
-| [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=Library-management-system&theme=radical)](https://github.com/timothee-makupete/Library-management-system) | |
-
-<!-- Activity Graph -->
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=timothee-makupete&theme=radical&hide_border=true&area=true)
+| <a href="https://github.com/timothee-makupete/bookzbee"><img src="https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=bookzbee&theme=radical" alt="bookzbee" /></a> | <a href="https://github.com/timothee-makupete/textsurf"><img src="https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=textsurf&theme=radical" alt="textsurf" /></a> |
+| <a href="https://github.com/timothee-makupete/Ottisonline"><img src="https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=Ottisonline&theme=radical" alt="Ottisonline" /></a> | <a href="https://github.com/timothee-makupete/capsulcode"><img src="https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=capsulcode&theme=radical" alt="capsulcode" /></a> |
+| <a href="https://github.com/timothee-makupete/Library-management-system"><img src="https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=Library-management-system&theme=radical" alt="Library-management-system" /></a> | |
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=timothee-makupete&label=Profile%20Views&color=ef476f&style=flat" alt="Profile Views"/>
