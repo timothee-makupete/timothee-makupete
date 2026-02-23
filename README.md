@@ -208,6 +208,14 @@ Enterprise SaaS for educational institutions
 - **Live:** [scoolverse.netlify.app](https://scoolverse.netlify.app/)
 - **Features:** Full school ERP, parent portals, analytics dashboards
 
+### 🍽️ **Red Valley Lodge** – Restaurant Management System
+Comprehensive restaurant management with QR code ordering
+- **Tech:** React.js, Django, PostgreSQL, Docker, Netlify
+- **Architecture:** Full-stack with QR code integration
+- **Features:** Daily menu management, QR code scanning, customer ordering
+- **Live:** [red-valley-lodge.netlify.app](https://red-valley-lodge.netlify.app/)
+- **Innovation:** Streamlined restaurant operations with modern technology
+
 
 
 ## 📈 Development Workflow

@@ -16,6 +16,15 @@
     
     <!-- Particles Background -->
     <div id="particles-js"></div>
+    
+    <!-- Binary Rain Background -->
+    <div class="binary-rain" id="binary-rain"></div>
+    
+    <!-- Floating Code Elements -->
+    <div class="floating-code" style="top: 20%; left: 10%;">console.log('Hello World');</div>
+    <div class="floating-code" style="top: 40%; right: 15%;">const developer = true;</div>
+    <div class="floating-code" style="top: 60%; left: 5%;">function createMagic() { ... }</div>
+    <div class="floating-code" style="top: 80%; right: 8%;">if (passion) { code(); }</div>
 
     <!-- Header & Navigation -->
     <header id="header">
@@ -53,7 +62,10 @@
                     <div class="highlight">
                         <i class="fas fa-rocket"></i> 4+ Years of Experience
                     </div>
-                    <h1>Full-Stack <span id="typing-text">Software Developer</span></h1>
+                    <h1>Full-Stack <span id="typing-text" class="typing-container">Software Developer</span></h1>
+                    <div class="terminal-text">
+                        npm install awesome-portfolio --save
+                    </div>
                     <p>I craft cutting-edge web experiences that push the boundaries of what's possible. With expertise in both frontend and backend development, AI integration, and cloud deployment, I deliver high-quality, scalable solutions.</p>
                     
                     <div class="cta-buttons">
@@ -81,7 +93,7 @@
     <!-- About Section -->
     <section class="about" id="about">
         <div class="container">
-            <h2 class="section-title fade-in">About Me</h2>
+            <h2 class="section-title fade-in glitch-effect" data-text="About Me">About Me</h2>
             <p class="section-subtitle fade-in">A dedicated and results-driven Web Developer with 4+ years of experience in building responsive web applications, backend systems, and creative graphics.</p>
             
             <div class="about-content">
@@ -93,26 +105,44 @@
                         <div class="skill-item">
                             <i class="fab fa-vuejs"></i>
                             <span>Vue.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" style="width: 90%"></div>
+                            </div>
                         </div>
                         <div class="skill-item">
                             <i class="fab fa-react"></i>
                             <span>React.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" style="width: 85%"></div>
+                            </div>
                         </div>
                         <div class="skill-item">
                             <i class="fab fa-python"></i>
                             <span>Python/Django</span>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" style="width: 88%"></div>
+                            </div>
                         </div>
                         <div class="skill-item">
                             <i class="fas fa-database"></i>
                             <span>PostgreSQL/MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" style="width: 82%"></div>
+                            </div>
                         </div>
                         <div class="skill-item">
                             <i class="fas fa-cloud"></i>
                             <span>AWS/Cloud Hosting</span>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" style="width: 75%"></div>
+                            </div>
                         </div>
                         <div class="skill-item">
                             <i class="fas fa-robot"></i>
                             <span>AI Integration</span>
+                            <div class="skill-bar">
+                                <div class="skill-bar-fill" style="width: 80%"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -142,7 +172,7 @@
     <!-- Projects Section -->
     <section id="projects">
         <div class="container">
-            <h2 class="section-title fade-in">My Projects</h2>
+            <h2 class="section-title fade-in glitch-effect" data-text="My Projects">My Projects</h2>
             <p class="section-subtitle fade-in">A showcase of my recent work across different domains, from educational tools to business solutions.</p>
             
             <div class="project-filters">
@@ -240,6 +270,29 @@
                         <p>A modern, cloud-based School Management System (SaaS) designed to help schools digitize and streamline operations.</p>
                         <div class="project-links">
                             <a href="https://scoolverse.netlify.app" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Red Valley Lodge -->
+                <div class="project-card fade-in" data-category="react">
+                    <div class="project-image" style="background: linear-gradient(135deg, #ef476f, #06d6a0);">
+                        <div class="project-picture">
+                            <img src="redvarry.png" alt="My picture"/>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag primary">React.js</span>
+                            <span class="tag">Django</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                        <h3>Red Valley Lodge - Restaurant Management</h3>
+                        <p>A comprehensive restaurant management system where admins add daily menus and customers scan QR codes to view menus and place orders.</p>
+                        <div class="project-links">
+                            <a href="https://red-valley-lodge.netlify.app" target="_blank" class="project-link">
                                 <i class="fas fa-external-link-alt"></i> Live Demo
                             </a>
                         </div>
