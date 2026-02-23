@@ -1,273 +1,139 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Timothy%20Makupete%20Phiri&fontSize=40&fontAlignY=35&animation=twinkling" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&text=Timothy%20Makupete%20Phiri&fontSize=35&fontAlignY=30&animation=twinkling" width="100%"/>
 </div>
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+👋,+I'm+Timothy;+Full-Stack+Developer;+AI+Specialist;+Educator;+Tech+Entrepreneur" />
-</h1>
+<h3 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Inter&size=22&center=true&vCenter=true&width=450&height=40&duration=3500&lines=Full-Stack+Developer;AI+Specialist;Educator;Tech+Entrepreneur" />
+</h3>
 
 <div align="center">
-  
-  [![Portfolio](https://img.shields.io/badge/Portfolio-%233a86ff.svg?style=for-the-badge&logo=netlify&logoColor=white)](https://capsulcode.netlify.app/)
-  [![Email](https://img.shields.io/badge/Email-%23ef476f.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:timotheemakupete@gmail.com)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/timothee-makupete-22b944312)
-  [![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/timothee-makupete)
-  
-  <img src="https://komarev.com/ghpvc/?username=timothee-makupete&label=Profile%20Views&color=ef476f&style=flat-square" alt="Profile Views"/>
-  
+  <a href="https://capsulcode.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-3a86ff?style=flat-square&logo=netlify&logoColor=white" /></a>
+  <a href="mailto:timotheemakupete@gmail.com"><img src="https://img.shields.io/badge/Email-ef476f?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/timothee-makupete-22b944312"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/timothee-makupete"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
+  <img src="https://komarev.com/ghpvc/?username=timothee-makupete&label=Views&color=ef476f&style=flat-square" />
 </div>
 
-<br/>
+---
 
 ## 🎯 Professional Summary
+**Full-Stack Developer (4+ yrs)** building scalable web apps & AI solutions. B.Ed ICT Graduate from Mzuzu University. Founder @ Capsulcode Technologies. Specialized in cloud architecture, DevOps, and EdTech.
 
-> **Full-Stack Developer with 4+ years of experience** building scalable web applications and AI-powered solutions. Graduate of **Bachelor of Education (ICT)** from Mzuzu University, bridging technology and education to create impactful digital experiences. Founder of Capsulcode Technologies with proven track record in cloud architecture, DevOps, and leading technical projects from conception to deployment.
+📍 **Lilongwe, Malawi** | 🎓 **B.Ed ICT Graduate** | 💼 **Capsulcode Technologies (BRN-JRSP5LV)**
 
-📍 **Based in:** Lilongwe, Malawi  
-🎓 **Education:** B.Ed ICT Graduate - Mzuzu University  
-💼 **Business:** Founder @ Capsulcode Technologies (BRN-JRSP5LV)
-
-<br/>
+---
 
 ## 💪 Core Competencies
 
-<table align="center">
+<table cellspacing="0" cellpadding="0">
   <tr>
-    <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="45" height="45" />
-      <br/>Python
-    </td>
-    <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="45" height="45" />
-      <br/>JavaScript
-    </td>
-    <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="45" height="45" />
-      <br/>TypeScript
-    </td>
-    <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="45" height="45" />
-      <br/>React
-    </td>
-    <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/vuejs-icon.svg" alt="Vue.js" width="45" height="45" />
-      <br/>Vue.js
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" width="45" height="45" />
-      <br/>Next.js
-    </td>
+    <td align="center"><img src="https://techstack-generator.vercel.app/python-icon.svg" width="35" height="35" /><br/><sub>Python</sub></td>
+    <td align="center"><img src="https://techstack-generator.vercel.app/js-icon.svg" width="35" height="35" /><br/><sub>JavaScript</sub></td>
+    <td align="center"><img src="https://techstack-generator.vercel.app/ts-icon.svg" width="35" height="35" /><br/><sub>TypeScript</sub></td>
+    <td align="center"><img src="https://techstack-generator.vercel.app/react-icon.svg" width="35" height="35" /><br/><sub>React</sub></td>
+    <td align="center"><img src="https://techstack-generator.vercel.app/vuejs-icon.svg" width="35" height="35" /><br/><sub>Vue.js</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="35" height="35" /><br/><sub>Next.js</sub></td>
+    <td align="center"><img src="https://techstack-generator.vercel.app/django-icon.svg" width="35" height="35" /><br/><sub>Django</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="35" height="35" /><br/><sub>FastAPI</sub></td>
   </tr>
   <tr>
-    <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/django-icon.svg" alt="Django" width="45" height="45" />
-      <br/>Django
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="45" height="45" />
-      <br/>FastAPI
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="45" height="45" />
-      <br/>Node.js
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="45" height="45" />
-      <br/>PHP
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" alt="Laravel" width="45" height="45" />
-      <br/>Laravel
-    </td>
-    <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/graphql-icon.svg" alt="GraphQL" width="45" height="45" />
-      <br/>GraphQL
-    </td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="35" height="35" /><br/><sub>Node.js</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="35" height="35" /><br/><sub>PHP</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="35" height="35" /><br/><sub>Laravel</sub></td>
+    <td align="center"><img src="https://techstack-generator.vercel.app/graphql-icon.svg" width="35" height="35" /><br/><sub>GraphQL</sub></td>
+    <td align="center"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="35" height="35" /><br/><sub>MySQL</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="35" height="35" /><br/><sub>PostgreSQL</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="35" height="35" /><br/><sub>MongoDB</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="35" height="35" /><br/><sub>Redis</sub></td>
   </tr>
   <tr>
-    <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="45" height="45" />
-      <br/>MySQL
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="45" height="45" />
-      <br/>PostgreSQL
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="45" height="45" />
-      <br/>MongoDB
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" width="45" height="45" />
-      <br/>Redis
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg" alt="Firebase" width="45" height="45" />
-      <br/>Firebase
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite" width="45" height="45" />
-      <br/>SQLite
-    </td>
+    <td align="center"><img src="https://techstack-generator.vercel.app/docker-icon.svg" width="35" height="35" /><br/><sub>Docker</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="35" height="35" /><br/><sub>K8s</sub></td>
+    <td align="center"><img src="https://techstack-generator.vercel.app/aws-icon.svg" width="35" height="35" /><br/><sub>AWS</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="35" height="35" /><br/><sub>GCP</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="35" height="35" /><br/><sub>Azure</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" width="35" height="35" /><br/><sub>Terraform</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" width="35" height="35" /><br/><sub>Jenkins</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="35" height="35" /><br/><sub>Nginx</sub></td>
   </tr>
   <tr>
-    <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="45" height="45" />
-      <br/>Docker
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" width="45" height="45" />
-      <br/>K8s
-    </td>
-    <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="45" height="45" />
-      <br/>AWS
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="GCP" width="45" height="45" />
-      <br/>GCP
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" width="45" height="45" />
-      <br/>Azure
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Terraform" width="45" height="45" />
-      <br/>Terraform
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="45" height="45" />
-      <br/>TensorFlow
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="45" height="45" />
-      <br/>PyTorch
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" width="45" height="45" />
-      <br/>Pandas
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" width="45" height="45" />
-      <br/>NumPy
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter" width="45" height="45" />
-      <br/>Jupyter
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV" width="45" height="45" />
-      <br/>OpenCV
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" width="45" height="45" />
-      <br/>Flutter
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" alt="Swift" width="45" height="45" />
-      <br/>Swift
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="45" height="45" />
-      <br/>Kotlin
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Native" width="45" height="45" />
-      <br/>React Native
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" alt="Android" width="45" height="45" />
-      <br/>Android
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" alt="iOS" width="45" height="45" />
-      <br/>iOS
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="45" height="45" />
-      <br/>Git
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins" width="45" height="45" />
-      <br/>Jenkins
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" alt="Nginx" width="45" height="45" />
-      <br/>Nginx
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" width="45" height="45" />
-      <br/>Linux
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash" width="45" height="45" />
-      <br/>Bash
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman" width="45" height="45" />
-      <br/>Postman
-    </td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="35" height="35" /><br/><sub>TensorFlow</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="35" height="35" /><br/><sub>PyTorch</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="35" height="35" /><br/><sub>Pandas</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="35" height="35" /><br/><sub>NumPy</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="35" height="35" /><br/><sub>Flutter</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" width="35" height="35" /><br/><sub>Swift</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" width="35" height="35" /><br/><sub>Kotlin</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="35" height="35" /><br/><sub>React Native</sub></td>
   </tr>
 </table>
 
-<br/>
+---
 
-## 💼 Professional Experience
+## 💼 Experience
 
-### 🏫 **ICT Tutor** @ Mzuzu International Academy *(2025 - Present)*
-- Deliver advanced ICT curriculum including programming, networking, and cybersecurity to diverse student groups
-- Develop interactive learning materials using modern educational technology tools
-- Mentor students in software development projects, with 3 projects selected for regional competitions
-- Integrate AI tools into curriculum, improving student engagement by 40%
+**ICT Tutor** @ Mzuzu International Academy *(2025-Present)*
+- Deliver ICT curriculum (programming, networking, cybersecurity); mentor student dev projects (3 selected for regional comps)
+- Integrate AI tools into learning, improving engagement by 40%
 
-### 🚀 **Backend Developer** @ Capsulcode Technologies *(2023 - 2024)*
-- Architected and deployed scalable backend systems using **Docker and Kubernetes**, supporting 10,000+ daily users
-- Implemented **CI/CD pipelines** reducing deployment time by 60% and eliminating manual errors
-- Developed AI-powered educational tools with **TensorFlow and FastAPI**, increasing user retention by 35%
-- Optimized database queries achieving **40% faster response times** for critical endpoints
-- Built RESTful and GraphQL APIs serving 50,000+ requests daily with 99.9% uptime
+**Backend Developer** @ Capsulcode Technologies *(2023-2024)*
+- Architected scalable systems with Docker/K8s serving 10k+ daily users
+- Implemented CI/CD reducing deployment time by 60%; optimized DB queries for 40% faster response
+- Built REST/GraphQL APIs handling 50k+ daily requests at 99.9% uptime
 
-### 🌐 **Web Developer** @ KwachaLabs Organisation *(2022 - 2023)*
-- Developed microservices architecture using **Docker containers**, improving system scalability by 200%
-- Implemented AWS cloud infrastructure with auto-scaling, reducing hosting costs by 30%
-- Created real-time data processing systems with **WebSocket and Redis** for live dashboard updates
-- Deployed high-availability applications with **Nginx load balancing**, achieving 99.95% uptime
+**Web Developer** @ KwachaLabs Organisation *(2022-2023)*
+- Developed microservices with Docker, improving scalability by 200%
+- Implemented AWS auto-scaling, reducing costs by 30%
 
-<br/>
+---
 
 ## 🏆 Featured Projects
 
-### 🤖 **MSCE ChatBolt** – AI Educational Assistant
-*Production-grade AI learning platform for 10,000+ Malawi students*
-- **Tech Stack:** FastAPI, PostgreSQL, React, Docker, Kubernetes, TensorFlow, AWS
-- **Achievements:** 
-  - Custom-trained AI models on Malawi syllabus data with 85% accuracy
-  - Containerized microservices architecture handling 5,000+ concurrent users
-  - Implemented adaptive learning algorithms improving test scores by 25%
-- **Live Demo:** [msce-chatbolt.netlify.app](https://msce-chatbolt.netlify.app/)
+**🤖 MSCE ChatBolt** – AI Learning Platform (10k+ students)
+`FastAPI` `React` `TensorFlow` `K8s` `AWS`
+- Custom AI models on Malawi syllabus (85% accuracy); 5k+ concurrent users
+- Adaptive learning algorithms improved test scores by 25%
+→ [msce-chatbolt.netlify.app](https://msce-chatbolt.netlify.app/)
 
-### 🏫 **ScooVerse** – School Management System (SaaS)
-Enterprise SaaS for educational institutions
-- **Tech:** React.js, Django, PostgreSQL, Docker, AWS
-- **Architecture:** Multi-tenant SaaS, microservices
-- **Scale:** Supports 100+ schools, 50,000+ users
-- **Live:** [scoolverse.netlify.app](https://scoolverse.netlify.app/)
-- **Features:** Full school ERP, parent portals, analytics dashboards
+**🏫 ScooVerse** – SaaS School Management (100+ schools)
+`React` `Django` `PostgreSQL` `Docker` `AWS`
+- Multi-tenant system for 50k+ users; reduced admin workload by 60%
+- Real-time notifications & analytics dashboards
+→ [scoolverse.netlify.app](https://scoolverse.netlify.app/)
 
+**🏨 Akuka Lodge** – Hotel Management (500+ daily bookings)
+`Vue.js` `Django` `PostgreSQL` `AWS`
+- Real-time booking with 99.9% availability; $50k+ monthly transactions
+- RBAC for 50+ staff members
+→ [akuka.vercel.app](https://akuka.vercel.app/)
 
+**🔥 Capsulcode Technologies** – Company Portfolio
+`Vue.js` `Tailwind` `Docker` `Netlify`
+- 95+ Lighthouse score; PWA; CI/CD with GitHub Actions
+→ [capsulcode.netlify.app](https://capsulcode.netlify.app/)
 
-## 📈 Development Workflow
+---
 
-```yaml
-Development Process:
-  1. Planning:      Requirements → Architecture → Tech Stack
-  2. Development:   Git Flow → Code Reviews → Testing
-  3. Deployment:    Docker → CI/CD → Cloud Deployment
-  4. Monitoring:    Logging → Performance → Security
-  5. Maintenance:   Updates → Scaling → Optimization
+## 📈 Key Achievements
+⚡ 60% faster deployments | 🚀 10k+ daily users | 💰 $50k+ monthly txns | 📚 100+ schools | 🎓 500+ students mentored | ☁️ 99.9% uptime
+
+---
+
+## 📫 Connect
+<div>
+  <a href="mailto:timotheemakupete@gmail.com"><img src="https://img.shields.io/badge/Gmail-ef476f?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/timothee-makupete-22b944312"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://capsulcode.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-3a86ff?style=flat-square&logo=netlify&logoColor=white" /></a>
+  <a href="https://github.com/timothee-makupete"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
+</div>
+
+---
+
+<div align="center">
+  <sub>⚡ Available for freelance & full-time in Lilongwe and remote ⚡</sub><br/>
+  <sub>Let's build something amazing together!</sub>
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer" width="100%"/>
+</div>
