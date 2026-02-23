@@ -4,25 +4,38 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-3a86ff?style=for-the-badge&logo=netlify&logoColor=white)](https://capsulcode.netlify.app/)
 [![Email](https://img.shields.io/badge/Email-timotheemakupete@gmail.com-ef476f?style=for-the-badge&logo=gmail&logoColor=white)](mailto:timotheemakupete@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/timothee-makupete-22b944312)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/timothee-makupete)
 
 ## 📊 GitHub Analytics
 
-| | |
-| :---: | :---: |
-| **GitHub Stats** | **Top Languages** |
-| ![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=timothee-makupete&theme=radical) | ![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=timothee-makupete&theme=radical) |
-| **Commit Activity** | **Most Used Languages** |
-| ![Commit Activity](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=timothee-makupete&theme=radical&utcOffset=2) | ![Most Used Languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=timothee-makupete&theme=radical) |
+<p align="center">
+  <a href="https://github.com/timothee-makupete">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=timothee-makupete&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=timothee-makupete&layout=compact&langs_count=7&theme=radical"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=timothee-makupete&theme=radical" alt="GitHub Streak"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=timothee-makupete&theme=radical&no-frame=true&row=2&column=4" alt="GitHub Trophies"/>
+</p>
 
 <!-- Activity Graph -->
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=timothee-makupete&theme=radical&hide_border=true&area=true)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=timothee-makupete&theme=radical&hide_border=true&area=true&custom_title=Timothy's%20Contribution%20Graph)
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=timothee-makupete&label=Profile%20Views&color=ef476f&style=flat" alt="Profile Views"/>
+</p>
 
 ## 🎯 About Me
 
-I'm a passionate **Full-Stack Developer** with **4+ years of experience** in building scalable web applications, AI-powered solutions, and educational technology. Currently pursuing a **Bachelor of Education (ICT)** at Mzuzu University, I bridge the gap between technology and education to create impactful digital learning experiences.
+I'm a passionate **Full-Stack Developer** with **4+ years of experience** building scalable web applications, AI-powered solutions, and educational technology. Currently pursuing a **Bachelor of Education (ICT)** at Mzuzu University, I bridge technology and education to create impactful digital learning experiences.
 
 **📍 Based in:** Mzuzu, Malawi  
 **🌍 Serving:** Lilongwe, Mzimba regions  
@@ -30,127 +43,96 @@ I'm a passionate **Full-Stack Developer** with **4+ years of experience** in bui
 **💼 Business:** Capsulcode Technologies (BRN-JRSP5LV)  
 **🏆 Expertise:** Full-Stack Development, AI Integration, Cloud Architecture, DevOps
 
-## 🛠️ Tech Stack & Expertise
+## 📌 Pinned Repositories
 
-### **Programming Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
+<div align="center">
+  <a href="https://github.com/timothee-makupete/bookzbee">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=bookzbee&theme=radical" />
+  </a>
+  <a href="https://github.com/timothee-makupete/textsurf">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=textsurf&theme=radical" />
+  </a>
+  <br/>
+  <br/>
+  <a href="https://github.com/timothee-makupete/Ottisonline">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=Ottisonline&theme=radical" />
+  </a>
+  <a href="https://github.com/timothee-makupete/capsulcode">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=capsulcode&theme=radical" />
+  </a>
+  <br/>
+  <br/>
+  <a href="https://github.com/timothee-makupete/Library-management-system">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=timothee-makupete&repo=Library-management-system&theme=radical" />
+  </a>
+</div>
+
+## 🛠️ Tech Stack
+
+### **Core Languages**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
 
 ### **Frontend Development**
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00C58E?style=for-the-badge&logo=nuxt.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00C58E?style=flat-square&logo=nuxt.js&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 
 ### **Backend Development**
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=flat-square&logo=express&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+
+### **DevOps & Cloud**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+
+### **AI/ML**
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-FF6B35?style=flat-square&logo=langchain&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 
 ### **Databases**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-
-### **DevOps & Cloud Infrastructure**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI/CD-FF6C37?style=for-the-badge&logo=jenkins&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-
-### **AI/ML & Data Science**
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-FF6B35?style=for-the-badge&logo=langchain&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-### **Mobile Development**
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
 ### **Tools & Platforms**
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Adobe Creative Suite](https://img.shields.io/badge/Adobe_Creative_Suite-DA1F26?style=for-the-badge&logo=adobe&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-## 🔧 Technical Expertise by Category
-
-### **System Programming & Performance**
-- **C++**: High-performance applications, system programming, game engines
-- **Java**: Enterprise applications, Android development, Spring Framework
-- **Swift**: iOS/macOS development, Apple ecosystem applications
-- **Rust**: Systems programming, performance-critical applications (learning)
-
-### **Web Development Stack**
-- **Frontend**: Vue.js, React, TypeScript, Tailwind CSS, Webpack
-- **Backend**: Django, FastAPI, Node.js, Laravel, REST/GraphQL APIs
-- **Full-Stack**: MERN (MongoDB, Express, React, Node), Vue/Django stacks
-
-### **Cloud & DevOps Mastery**
-- **Containerization**: Docker, Docker Compose, Kubernetes orchestration
-- **Cloud Platforms**: AWS (EC2, S3, RDS, Lambda), Google Cloud, Azure
-- **CI/CD**: GitHub Actions, Jenkins, automated deployment pipelines
-- **Infrastructure as Code**: Terraform, CloudFormation
-- **Monitoring**: Prometheus, Grafana, ELK Stack
-
-### **Database Management**
-- **SQL**: PostgreSQL, MySQL, advanced query optimization
-- **NoSQL**: MongoDB, Redis caching strategies
-- **ORM**: Django ORM, Prisma, Sequelize, SQLAlchemy
-
-### **AI & Machine Learning**
-- **ML Frameworks**: TensorFlow, PyTorch, scikit-learn
-- **NLP**: Transformers, BERT, GPT integration
-- **AI APIs**: OpenAI, Hugging Face, custom model deployment
-- **Data Processing**: Pandas, NumPy, data visualization
-
-### **Mobile Development**
-- **Cross-platform**: React Native, Flutter
-- **Native**: Swift (iOS), Kotlin (Android)
-- **State Management**: Redux, MobX, Provider
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat-square&logo=pycharm&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 
 ## 💼 Professional Experience
 
@@ -182,18 +164,34 @@ Modern responsive website with animations and fast UI
 - **Architecture:** Micro-frontends, CI/CD with GitHub Actions
 - **Performance:** 95+ Lighthouse score, PWA capabilities
 - **Live:** [capsulcode.netlify.app](https://capsulcode.netlify.app/)
-- **Features:** Service showcase, AI integration demos, interactive UI
+- **Repo:** [github.com/timothee-makupete/capsulcode](https://github.com/timothee-makupete/capsulcode)
 
-### 🏨 **Akuka Lodge** – Hotel Management System
-Enterprise hotel management with real-time booking
-- **Tech:** Vue.js, Django, PostgreSQL, Docker, AWS
-- **Architecture:** Monolithic with microservices for payments
-- **Scalability:** Handles 500+ concurrent users
-- **Live:** [akuka.vercel.app](https://akuka.vercel.app/)
-- **Features:** Real-time availability, payment integration, admin dashboard
+### 📚 **Bookzbee** – Book Management Platform
+A comprehensive book discovery and management system
+- **Tech:** [Add your tech stack here]
+- **Features:** [Add key features here]
+- **Repo:** [github.com/timothee-makupete/bookzbee](https://github.com/timothee-makupete/bookzbee)
+
+### 🌊 **Textsurf** – Text Processing Tool
+[Add description for textsurf]
+- **Tech:** [Add your tech stack here]
+- **Features:** [Add key features here]
+- **Repo:** [github.com/timothee-makupete/textsurf](https://github.com/timothee-makupete/textsurf)
+
+### 🏨 **Ottisonline** – Online Booking Platform
+[Add description for Ottisonline]
+- **Tech:** [Add your tech stack here]
+- **Features:** [Add key features here]
+- **Repo:** [github.com/timothee-makupete/Ottisonline](https://github.com/timothee-makupete/Ottisonline)
+
+### 📖 **Library Management System**
+A complete library management solution
+- **Tech:** [Add your tech stack here]
+- **Features:** [Add key features here]
+- **Repo:** [github.com/timothee-makupete/Library-management-system](https://github.com/timothee-makupete/Library-management-system)
 
 ### 🤖 **MSCE ChatBolt** – AI Educational Assistant
-Production-grade AI learning platform
+Production-grade AI learning platform for Malawi students
 - **Tech:** FastAPI, PostgreSQL, React, Docker, TensorFlow
 - **AI Models:** Custom-trained on Malawi syllabus data
 - **Infrastructure:** Containerized with Kubernetes on AWS
@@ -208,14 +206,33 @@ Enterprise SaaS for educational institutions
 - **Live:** [scoolverse.netlify.app](https://scoolverse.netlify.app/)
 - **Features:** Full school ERP, parent portals, analytics dashboards
 
+## 📈 Weekly Development Breakdown
 
+<!-- Uncomment and set up WakaTime if you use it -->
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
-## 📈 Development Workflow
+## 📫 Let's Connect!
 
-```yaml
-Development Process:
-  1. Planning:      Requirements → Architecture → Tech Stack
-  2. Development:   Git Flow → Code Reviews → Testing
-  3. Deployment:    Docker → CI/CD → Cloud Deployment
-  4. Monitoring:    Logging → Performance → Security
-  5. Maintenance:   Updates → Scaling → Optimization
+I'm always interested in collaborating on innovative projects, discussing AI in education, or exploring new technologies. Feel free to reach out!
+
+- 📧 **Email:** [timotheemakupete@gmail.com](mailto:timotheemakupete@gmail.com)
+- 🌐 **Portfolio:** [capsulcode.netlify.app](https://capsulcode.netlify.app/)
+- 💼 **LinkedIn:** [Timothy Makupete Phiri](https://www.linkedin.com/in/timothee-makupete-22b944312)
+- 🐦 **Twitter:** [@yourhandle](YOUR_TWITTER_URL) *(Add your Twitter if you have one)*
+- 💻 **GitHub:** [@timothee-makupete](https://github.com/timothee-makupete)
+
+---
+
+<p align="center">
+  <i>⚡ "Building the future of education through technology, one line of code at a time" ⚡</i>
+</p>
+
+<p align="center">
+  <a href="https://github.com/timothee-makupete?tab=repositories">
+    <img src="https://img.shields.io/badge/View%20All%20Repositories-3a86ff?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://github.com/timothee-makupete">
+    <img src="https://img.shields.io/badge/Follow-ef476f?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
