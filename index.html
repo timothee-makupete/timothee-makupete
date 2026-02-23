@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+    
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
     <!-- Header & Navigation -->
     <header id="header">
         <div class="container">
@@ -30,6 +36,9 @@
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button></li>
                 </ul>
             </nav>
         </div>
@@ -44,7 +53,7 @@
                     <div class="highlight">
                         <i class="fas fa-rocket"></i> 4+ Years of Experience
                     </div>
-                    <h1>Full-Stack <span>Software Developer</span></h1>
+                    <h1>Full-Stack <span id="typing-text">Software Developer</span></h1>
                     <p>I craft cutting-edge web experiences that push the boundaries of what's possible. With expertise in both frontend and backend development, AI integration, and cloud deployment, I deliver high-quality, scalable solutions.</p>
                     
                     <div class="cta-buttons">
@@ -110,16 +119,16 @@
                 
                 <div class="about-stats">
                     <div class="stat-item fade-in">
-                        <div class="stat-number">4+</div>
-                        <div class="stat-label">Years Experience</div>
+                        <div class="stat-number" id="github-repos">0+</div>
+                        <div class="stat-label">GitHub Repos</div>
                     </div>
                     <div class="stat-item fade-in">
-                        <div class="stat-number">20+</div>
-                        <div class="stat-label">Projects Completed</div>
+                        <div class="stat-number" id="github-stars">0+</div>
+                        <div class="stat-label">GitHub Stars</div>
                     </div>
                     <div class="stat-item fade-in">
-                        <div class="stat-number">15+</div>
-                        <div class="stat-label">Technologies</div>
+                        <div class="stat-number" id="github-followers">0+</div>
+                        <div class="stat-label">Followers</div>
                     </div>
                     <div class="stat-item fade-in">
                         <div class="stat-number">100%</div>
@@ -136,9 +145,17 @@
             <h2 class="section-title fade-in">My Projects</h2>
             <p class="section-subtitle fade-in">A showcase of my recent work across different domains, from educational tools to business solutions.</p>
             
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="vue">Vue.js</button>
+                <button class="filter-btn" data-filter="react">React.js</button>
+                <button class="filter-btn" data-filter="ai">AI</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+            </div>
+            
             <div class="projects-grid">
                 <!-- Capsulcode Technologies -->
-                <div class="project-card fade-in">
+                <div class="project-card fade-in" data-category="vue">
                     <div class="project-image" style="background: linear-gradient(135deg, #3a86ff, #8338ec);">
                         <div class="project-picture">
                             <img src="capsulcode.png" alt="My picture"/>
@@ -161,7 +178,7 @@
                 </div>
                 
                 <!-- Akuka Lodge -->
-                <div class="project-card fade-in">
+                <div class="project-card fade-in" data-category="vue">
                     <div class="project-image" style="background: linear-gradient(135deg, #ff9a9e, #fad0c4);">
                         <div class="project-picture">
                             <img src="akuka.png" alt="My picture"/>
@@ -184,7 +201,7 @@
                 </div>
                 
                 <!-- MSCE ChatBolt -->
-                <div class="project-card fade-in">
+                <div class="project-card fade-in" data-category="ai">
                     <div class="project-image" style="background: linear-gradient(135deg, #06d6a0, #118ab2);">
                         <div class="project-picture">
                             <img src="chatbolt.png" alt="My picture"/>
@@ -207,7 +224,7 @@
                 </div>
                 
                 <!-- ScooVerse -->
-                <div class="project-card fade-in">
+                <div class="project-card fade-in" data-category="react">
                     <div class="project-image" style="background: linear-gradient(135deg, #ffd166, #ef476f);">
                         <div class="project-picture">
                             <img src="xool.png" alt="My picture"/>
