@@ -17,15 +17,6 @@
     <!-- Particles Background -->
     <div id="particles-js"></div>
     
-    <!-- Binary Rain Background -->
-    <div class="binary-rain" id="binary-rain"></div>
-    
-    <!-- Floating Code Elements -->
-    <div class="floating-code" style="top: 20%; left: 10%;">console.log('Hello World');</div>
-    <div class="floating-code" style="top: 40%; right: 15%;">const developer = true;</div>
-    <div class="floating-code" style="top: 60%; left: 5%;">function createMagic() { ... }</div>
-    <div class="floating-code" style="top: 80%; right: 8%;">if (passion) { code(); }</div>
-
     <!-- Header & Navigation -->
     <header id="header">
         <div class="container">
@@ -59,12 +50,27 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <div class="highlight">
-                        <i class="fas fa-rocket"></i> 4+ Years of Experience
-                    </div>
-                    <h1>Full-Stack <span id="typing-text" class="typing-container">Software Developer</span></h1>
-                    <div class="terminal-text">
-                        npm install awesome-portfolio --save
+                    <h1><span id="typing-text" class="typing-container">Software Developer</span></h1>
+                    <div class="terminal-section">
+                        <div class="terminal-text">
+                            npm install awesome-portfolio --save
+                        </div>
+                        <div class="console-output" id="console-output">
+                            <div class="console-line">
+                                <span class="console-prompt">$</span>
+                                <span class="console-command">git status</span>
+                            </div>
+                            <div class="console-line">
+                                <span class="console-success"> On branch main</span>
+                            </div>
+                            <div class="console-line">
+                                <span class="console-prompt">$</span>
+                                <span class="console-command">node --version</span>
+                            </div>
+                            <div class="console-line">
+                                <span class="console-info">v18.17.0</span>
+                            </div>
+                        </div>
                     </div>
                     <p>I craft cutting-edge web experiences that push the boundaries of what's possible. With expertise in both frontend and backend development, AI integration, and cloud deployment, I deliver high-quality, scalable solutions.</p>
                     
@@ -93,7 +99,7 @@
     <!-- About Section -->
     <section class="about" id="about">
         <div class="container">
-            <h2 class="section-title fade-in glitch-effect" data-text="About Me">About Me</h2>
+            <h2 class="section-title fade-in">About Me</h2>
             <p class="section-subtitle fade-in">A dedicated and results-driven Web Developer with 4+ years of experience in building responsive web applications, backend systems, and creative graphics.</p>
             
             <div class="about-content">
@@ -172,7 +178,7 @@
     <!-- Projects Section -->
     <section id="projects">
         <div class="container">
-            <h2 class="section-title fade-in glitch-effect" data-text="My Projects">My Projects</h2>
+            <h2 class="section-title fade-in">My Projects</h2>
             <p class="section-subtitle fade-in">A showcase of my recent work across different domains, from educational tools to business solutions.</p>
             
             <div class="project-filters">
@@ -295,6 +301,138 @@
                             <a href="https://red-valley-lodge.netlify.app" target="_blank" class="project-link">
                                 <i class="fas fa-external-link-alt"></i> Live Demo
                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research & Current Projects Section -->
+    <section class="research" id="research">
+        <div class="container">
+            <h2 class="section-title fade-in">Current Research & Projects</h2>
+            <p class="section-subtitle fade-in">Exploring cutting-edge technology solutions for real-world problems</p>
+            
+            <div class="research-content">
+                <div class="research-main fade-in">
+                    <div class="research-header">
+                        <div class="research-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="research-title">
+                            <h3>Trackit</h3>
+                            <span class="research-status">In Development</span>
+                        </div>
+                    </div>
+                    
+                    <div class="research-description">
+                        <p>A revolutionary stolen phone tracking system that combines Android mobile development with Node.js backend services. The system creates a mesh network where nearby phones can detect and relay location data from stolen devices using Bluetooth Low Energy (BLE) and Wi-Fi Direct technologies.</p>
+                        
+                        <div class="tech-stack">
+                            <h4>Technology Stack</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag primary">Android</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Ethereum Blockchain</span>
+                                <span class="tech-tag">Bluetooth LE</span>
+                                <span class="tech-tag">Wi-Fi Direct</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="research-features">
+                        <h4>Key Features</h4>
+                        <div class="features-grid">
+                            <div class="feature-item">
+                                <i class="fas fa-network-wired"></i>
+                                <span>Mesh Network Detection</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-link"></i>
+                                <span>Blockchain IMEI Recording</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-map-marked-alt"></i>
+                                <span>Real-time Location Tracking</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>End-to-End Encryption</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-battery-full"></i>
+                                <span>Battery Efficient Scanning</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-wifi"></i>
+                                <span>Offline-First Operation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="research-visual fade-in">
+                    <div class="dashboard-container">
+                        <div class="dashboard-header">
+                            <h4>Trackit Dashboard</h4>
+                            <div class="status-indicator online">
+                                <span class="status-dot"></span>
+                                Live Monitoring
+                            </div>
+                        </div>
+                        <div class="dashboard-image">
+                            <img src="trackit.png" alt="Trackit Dashboard" />
+                            <div class="dashboard-overlay">
+                                <div class="stat-item">
+                                    <div class="stat-number" id="devices-tracked">0</div>
+                                    <div class="stat-label">Devices Tracked</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-number" id="recovery-rate">0%</div>
+                                    <div class="stat-label">Recovery Rate</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-number" id="network-size">0</div>
+                                    <div class="stat-label">Network Nodes</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="research-progress">
+                        <h4>Development Progress</h4>
+                        <div class="progress-bars">
+                            <div class="progress-item">
+                                <span class="progress-label">Android App</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" data-progress="75"></div>
+                                </div>
+                                <span class="progress-percentage">75%</span>
+                            </div>
+                            <div class="progress-item">
+                                <span class="progress-label">Backend API</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" data-progress="85"></div>
+                                </div>
+                                <span class="progress-percentage">85%</span>
+                            </div>
+                            <div class="progress-item">
+                                <span class="progress-label">Blockchain Integration</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" data-progress="60"></div>
+                                </div>
+                                <span class="progress-percentage">60%</span>
+                            </div>
+                            <div class="progress-item">
+                                <span class="progress-label">Dashboard UI</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" data-progress="90"></div>
+                                </div>
+                                <span class="progress-percentage">90%</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -462,6 +600,26 @@
             </div>
         </div>
     </section>
+
+    <!-- Developer Console Widget -->
+    <div class="dev-console" id="dev-console">
+        <div class="console-header">
+            <div class="console-title">
+                <i class="fas fa-terminal"></i>
+                Developer Console
+            </div>
+            <button class="console-toggle" id="console-toggle">
+                <i class="fas fa-minus"></i>
+            </button>
+        </div>
+        <div class="console-body" id="console-body">
+            <div class="console-history" id="console-history"></div>
+            <div class="console-input-line">
+                <span class="console-prompt">$</span>
+                <input type="text" class="console-input" id="console-input" placeholder="Type commands..." autocomplete="off">
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer>

@@ -1,27 +1,3 @@
-// Binary Rain Effect
-function initBinaryRain() {
-    const binaryRain = document.getElementById('binary-rain');
-    if (!binaryRain) return;
-    
-    const binaryChars = ['0', '1'];
-    const columns = Math.floor(window.innerWidth / 20);
-    
-    for (let i = 0; i < columns; i++) {
-        const span = document.createElement('span');
-        span.style.left = i * 20 + 'px';
-        span.style.animationDuration = (Math.random() * 3 + 2) + 's';
-        span.style.animationDelay = Math.random() * 2 + 's';
-        
-        let binaryString = '';
-        for (let j = 0; j < 20; j++) {
-            binaryString += binaryChars[Math.floor(Math.random() * binaryChars.length)];
-        }
-        span.textContent = binaryString;
-        
-        binaryRain.appendChild(span);
-    }
-}
-
 // Enhanced Typing Animation with Code Words
 const typingTexts = ['Software Developer', 'Full-Stack Engineer', 'AI Enthusiast', 'Problem Solver', 'Code Architect'];
 let textIndex = 0;
@@ -54,36 +30,6 @@ function typeText() {
     }
     
     setTimeout(typeText, typeSpeed);
-}
-
-// Matrix-Style Navigation Enhancement
-function enhanceNavigation() {
-    const navLinks = document.querySelectorAll('.nav-links a');
-    
-    navLinks.forEach(link => {
-        link.addEventListener('mouseenter', function() {
-            this.style.textShadow = '0 0 10px var(--code-blue)';
-        });
-        
-        link.addEventListener('mouseleave', function() {
-            this.style.textShadow = 'none';
-        });
-    });
-}
-
-// Glitch Effect for Headings
-function initGlitchEffects() {
-    const glitchElements = document.querySelectorAll('.glitch-effect');
-    
-    glitchElements.forEach(element => {
-        element.addEventListener('mouseenter', function() {
-            this.style.animation = 'glitch 0.3s ease-in-out infinite';
-        });
-        
-        element.addEventListener('mouseleave', function() {
-            this.style.animation = 'glitch 2s ease-in-out infinite';
-        });
-    });
 }
 
 // Skill Bars Animation on Scroll
@@ -123,29 +69,596 @@ function enhanceProjectCards() {
     });
 }
 
-// Terminal-Style Console Messages
+// Developer Console Widget
+function initDeveloperConsole() {
+    const consoleWidget = document.getElementById('dev-console');
+    const consoleToggle = document.getElementById('console-toggle');
+    const consoleInput = document.getElementById('console-input');
+    const consoleHistory = document.getElementById('console-history');
+    const consoleBody = document.getElementById('console-body');
+    
+    let isMinimized = false;
+    let commandHistory = [];
+    let historyIndex = -1;
+    
+    // Enhanced console commands with dummy data
+    const commands = {
+        help: () => {
+            return `Available commands:
+  • help - Show this help message
+  • clear - Clear console history
+  • about - Display portfolio info
+  • skills - List technical skills
+  • projects - Show project count
+  • contact - Display contact info
+  • date - Show current date
+  • time - Show current time
+  • theme - Toggle dark/light mode
+  • color <color> - Change accent color
+  • whoami - Display developer info
+  • ls - List directory contents
+  • pwd - Show current directory
+  • cat <file> - Display file contents
+  • echo <text> - Display text
+  • status - Show system status
+  • network - Display network info
+  • weather - Show weather info
+  • calc <expression> - Simple calculator
+  • quote - Show random quote`;
+        },
+        clear: () => {
+            consoleHistory.innerHTML = '';
+            return 'Console cleared.';
+        },
+        about: () => {
+            return `Timothy Makupete Phiri
+Full-Stack Developer | AI Specialist | Educator
+Location: Malawi
+University: Mzuzu University (B.Ed ICT)
+Experience: Web Development, AI Integration, Cloud Deployment`;
+        },
+        skills: () => {
+            return `Core Skills:
+  • Frontend: Vue.js (90%), React.js (85%), HTML/CSS (95%)
+  • Backend: Python/Django (88%), Node.js (82%), PostgreSQL (82%)
+  • Cloud: AWS (75%), Netlify (90%), Vercel (85%)
+  • AI: Machine Learning (80%), NLP (75%), Computer Vision (70%)
+  • Mobile: Android Development (75%), React Native (70%)`;
+        },
+        projects: () => {
+            const projectCards = document.querySelectorAll('.project-card');
+            return `Total Projects: ${projectCards.length} deployed applications
+Recent Projects:
+  • Capsulcode Technologies - Vue.js Company Website
+  • Akuka Lodge - Hotel Management System
+  • MSCE ChatBolt - AI Learning Assistant
+  • ScooVerse - School Management System
+  • Red Valley Lodge - Booking Platform
+  • Trackit - Stolen Phone Tracking (In Development)`;
+        },
+        contact: () => {
+            return `Contact Information:
+  • Email: timotheemakupete@gmail.com
+  • GitHub: github.com/timothee-makupete
+  • LinkedIn: linkedin.com/in/timothy-phiri
+  • Location: Mzuzu, Malawi
+  • Available for: Freelance, Full-time, Consulting`;
+        },
+        date: () => {
+            return new Date().toLocaleDateString('en-US', { 
+                weekday: 'long', 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric' 
+            });
+        },
+        time: () => {
+            return new Date().toLocaleTimeString('en-US', { 
+                hour: '2-digit', 
+                minute: '2-digit', 
+                second: '2-digit' 
+            });
+        },
+        theme: () => {
+            themeToggle.click();
+            return 'Theme toggled successfully.';
+        },
+        color: (color) => {
+            if (color) {
+                document.documentElement.style.setProperty('--primary', color);
+                return `Accent color changed to ${color}`;
+            }
+            return 'Usage: color <color-name> (e.g., color blue)';
+        },
+        whoami: () => {
+            return `timothy@developer:~$ 
+User: Timothy Makupete Phiri
+Role: Full-Stack Software Developer
+Permissions: READ, WRITE, EXECUTE
+Session: Active
+Last Login: ${new Date().toLocaleString()}`;
+        },
+        ls: () => {
+            return `portfolio/
+├── about.md
+├── projects/
+│   ├── capsulcode/
+│   ├── akuka-lodge/
+│   ├── chatbolt/
+│   └── scooverse/
+├── skills/
+│   ├── frontend/
+│   ├── backend/
+│   └── cloud/
+├── research/
+│   └── trackit/
+└── contact.json`;
+        },
+        pwd: () => {
+            return '/home/timothy/portfolio';
+        },
+        cat: (filename) => {
+            const files = {
+                'about.md': '# About Timothy Phiri\nFull-stack developer passionate about creating innovative web solutions.',
+                'contact.json': '{"email": "timotheemakupete@gmail.com", "github": "timothee-makupete"}',
+                'skills/frontend': 'Vue.js, React.js, HTML5, CSS3, JavaScript, TypeScript',
+                'skills/backend': 'Python, Django, Node.js, Express, PostgreSQL, MongoDB'
+            };
+            
+            if (filename && files[filename]) {
+                return files[filename];
+            } else if (filename) {
+                return `cat: ${filename}: No such file or directory`;
+            }
+            return 'Usage: cat <filename>';
+        },
+        echo: (...args) => {
+            return args.join(' ') || '';
+        },
+        status: () => {
+            return `System Status:
+  • CPU: 45% usage
+  • Memory: 62% used (8.2GB/13.2GB)
+  • Disk: 78% used (234GB/300GB)
+  • Network: Connected
+  • Uptime: 2 days, 14 hours
+  • Server: Running on port 3000`;
+        },
+        network: () => {
+            return `Network Information:
+  • IP: 192.168.1.100
+  • Gateway: 192.168.1.1
+  • DNS: 8.8.8.8, 8.8.4.4
+  • Speed: 100 Mbps
+  • Status: Connected
+  • Latency: 12ms`;
+        },
+        weather: () => {
+            return `Weather Report - Mzuzu, Malawi:
+  • Temperature: 24°C
+  • Condition: Partly Cloudy
+  • Humidity: 65%
+  • Wind: 12 km/h
+  • UV Index: 6 (High)
+  • Sunrise: 05:42 AM
+  • Sunset: 06:18 PM`;
+        },
+        calc: (expression) => {
+            if (!expression) return 'Usage: calc <expression> (e.g., calc 2+2)';
+            try {
+                // Simple calculator - only allow basic operations
+                const safeExpression = expression.replace(/[^0-9+\-*/().\s]/g, '');
+                if (safeExpression !== expression) {
+                    return 'Error: Invalid characters in expression';
+                }
+                const result = Function('"use strict"; return (' + safeExpression + ')')();
+                return `Result: ${result}`;
+            } catch (e) {
+                return 'Error: Invalid expression';
+            }
+        },
+        quote: () => {
+            const quotes = [
+                '"Code is like humor. When you have to explain it, it\'s bad." - Cory House',
+                '"The best way to predict the future is to invent it." - Alan Kay',
+                '"First, solve the problem. Then, write the code." - John Johnson',
+                '"Experience is the name everyone gives to their mistakes." - Oscar Wilde',
+                '"Innovation distinguishes between a leader and a follower." - Steve Jobs',
+                '"Code never lies, comments sometimes do." - Ron Jeffries'
+            ];
+            return quotes[Math.floor(Math.random() * quotes.length)];
+        }
+    };
+    
+    // Toggle console
+    consoleToggle.addEventListener('click', () => {
+        isMinimized = !isMinimized;
+        consoleWidget.classList.toggle('minimized');
+        consoleToggle.innerHTML = isMinimized ? 
+            '<i class="fas fa-plus"></i>' : 
+            '<i class="fas fa-minus"></i>';
+    });
+    
+    // Make console draggable
+    let isDragging = false;
+    let currentX;
+    let currentY;
+    let initialX;
+    let initialY;
+    let xOffset = 0;
+    let yOffset = 0;
+    
+    const consoleHeader = consoleWidget.querySelector('.console-header');
+    
+    consoleHeader.addEventListener('mousedown', dragStart);
+    document.addEventListener('mousemove', drag);
+    document.addEventListener('mouseup', dragEnd);
+    
+    // Touch events for mobile
+    consoleHeader.addEventListener('touchstart', dragStart);
+    document.addEventListener('touchmove', drag);
+    document.addEventListener('touchend', dragEnd);
+    
+    function dragStart(e) {
+        if (e.type === 'touchstart') {
+            initialX = e.touches[0].clientX - xOffset;
+            initialY = e.touches[0].clientY - yOffset;
+        } else {
+            initialX = e.clientX - xOffset;
+            initialY = e.clientY - yOffset;
+        }
+        
+        if (e.target === consoleHeader || consoleHeader.contains(e.target)) {
+            isDragging = true;
+        }
+    }
+    
+    function drag(e) {
+        if (isDragging) {
+            e.preventDefault();
+            
+            if (e.type === 'touchmove') {
+                currentX = e.touches[0].clientX - initialX;
+                currentY = e.touches[0].clientY - initialY;
+            } else {
+                currentX = e.clientX - initialX;
+                currentY = e.clientY - initialY;
+            }
+            
+            xOffset = currentX;
+            yOffset = currentY;
+            
+            consoleWidget.style.transform = `translate(${currentX}px, ${currentY}px)`;
+        }
+    }
+    
+    function dragEnd() {
+        initialX = currentX;
+        initialY = currentY;
+        isDragging = false;
+    }
+    
+    // Handle command input
+    consoleInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+            const command = consoleInput.value.trim();
+            if (command) {
+                executeCommand(command);
+                commandHistory.push(command);
+                historyIndex = commandHistory.length;
+                consoleInput.value = '';
+            }
+        } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            if (historyIndex > 0) {
+                historyIndex--;
+                consoleInput.value = commandHistory[historyIndex];
+            }
+        } else if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            if (historyIndex < commandHistory.length - 1) {
+                historyIndex++;
+                consoleInput.value = commandHistory[historyIndex];
+            } else {
+                historyIndex = commandHistory.length;
+                consoleInput.value = '';
+            }
+        } else if (e.key === 'Tab') {
+            e.preventDefault();
+            // Simple tab completion
+            const currentInput = consoleInput.value.toLowerCase();
+            const possibleCommands = Object.keys(commands).filter(cmd => cmd.startsWith(currentInput));
+            if (possibleCommands.length === 1) {
+                consoleInput.value = possibleCommands[0];
+            }
+        }
+    });
+    
+    function executeCommand(command) {
+        const parts = command.split(' ');
+        const cmd = parts[0].toLowerCase();
+        const args = parts.slice(1);
+        
+        // Add command to history
+        addConsoleLine(`$ ${command}`, 'console-command');
+        
+        // Execute command
+        if (commands[cmd]) {
+            const result = commands[cmd](...args);
+            // Handle multi-line results
+            const lines = result.split('\n');
+            lines.forEach(line => {
+                addConsoleLine(line, 'console-command-result');
+            });
+        } else {
+            addConsoleLine(`Command not found: ${cmd}. Type 'help' for available commands.`, 'console-command-error');
+        }
+        
+        // Scroll to bottom
+        consoleHistory.scrollTop = consoleHistory.scrollHeight;
+    }
+    
+    function addConsoleLine(text, className = '') {
+        const line = document.createElement('div');
+        line.className = className;
+        line.textContent = text;
+        consoleHistory.appendChild(line);
+    }
+    
+    // Initial welcome message
+    setTimeout(() => {
+        addConsoleLine('Developer Console v2.0.0 - Mobile Enhanced', 'console-command-help');
+        addConsoleLine('Type "help" for available commands', 'console-command-help');
+        addConsoleLine('New features: ls, cat, calc, weather, quote', 'console-command-info');
+        consoleHistory.scrollTop = consoleHistory.scrollHeight;
+    }, 2000);
+}
+
+// Research Section Animations
+function initResearchSection() {
+    // Animate dashboard stats
+    animateDashboardStats();
+    
+    // Animate progress bars
+    animateProgressBars();
+    
+    // Add interactive hover effects
+    addResearchInteractions();
+}
+
+function animateDashboardStats() {
+    const devicesTracked = document.getElementById('devices-tracked');
+    const recoveryRate = document.getElementById('recovery-rate');
+    const networkSize = document.getElementById('network-size');
+    
+    if (devicesTracked) {
+        let currentDevices = 0;
+        const targetDevices = 1247;
+        const increment = Math.ceil(targetDevices / 50);
+        
+        const deviceTimer = setInterval(() => {
+            currentDevices += increment;
+            if (currentDevices >= targetDevices) {
+                currentDevices = targetDevices;
+                clearInterval(deviceTimer);
+            }
+            devicesTracked.textContent = currentDevices.toLocaleString();
+        }, 30);
+    }
+    
+    if (recoveryRate) {
+        let currentRate = 0;
+        const targetRate = 87;
+        const rateIncrement = targetRate / 40;
+        
+        const rateTimer = setInterval(() => {
+            currentRate += rateIncrement;
+            if (currentRate >= targetRate) {
+                currentRate = targetRate;
+                clearInterval(rateTimer);
+            }
+            recoveryRate.textContent = Math.floor(currentRate) + '%';
+        }, 50);
+    }
+    
+    if (networkSize) {
+        let currentNodes = 0;
+        const targetNodes = 5432;
+        const nodeIncrement = Math.ceil(targetNodes / 60);
+        
+        const nodeTimer = setInterval(() => {
+            currentNodes += nodeIncrement;
+            if (currentNodes >= targetNodes) {
+                currentNodes = targetNodes;
+                clearInterval(nodeTimer);
+            }
+            networkSize.textContent = currentNodes.toLocaleString();
+        }, 25);
+    }
+}
+
+function animateProgressBars() {
+    const progressFills = document.querySelectorAll('.progress-fill');
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const progressFill = entry.target;
+                const targetProgress = progressFill.getAttribute('data-progress');
+                
+                setTimeout(() => {
+                    progressFill.style.width = targetProgress + '%';
+                }, 200);
+                
+                observer.unobserve(progressFill);
+            }
+        });
+    }, { threshold: 0.5 });
+    
+    progressFills.forEach(bar => observer.observe(bar));
+}
+
+function addResearchInteractions() {
+    // Tech tag interactions
+    const techTags = document.querySelectorAll('.tech-tag');
+    techTags.forEach(tag => {
+        tag.addEventListener('click', function() {
+            const techName = this.textContent;
+            showTechDetails(techName);
+        });
+        
+        tag.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-2px) scale(1.05)';
+        });
+        
+        tag.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0) scale(1)';
+        });
+    });
+    
+    // Feature item interactions
+    const featureItems = document.querySelectorAll('.feature-item');
+    featureItems.forEach((item, index) => {
+        item.style.animationDelay = `${index * 0.1}s`;
+        item.classList.add('fade-in');
+        // Ensure visibility immediately
+        setTimeout(() => {
+            item.style.opacity = '1';
+            item.style.visibility = 'visible';
+        }, 100 + (index * 100));
+        
+        item.addEventListener('click', function() {
+            const featureName = this.querySelector('span').textContent;
+            showFeatureDetails(featureName);
+        });
+    });
+    
+    // Dashboard image hover effect
+    const dashboardImage = document.querySelector('.dashboard-image');
+    if (dashboardImage) {
+        dashboardImage.addEventListener('mouseenter', function() {
+            this.style.transform = 'scale(1.02)';
+            this.style.boxShadow = '0 15px 40px rgba(0, 0, 0, 0.3)';
+        });
+        
+        dashboardImage.addEventListener('mouseleave', function() {
+            this.style.transform = 'scale(1)';
+            this.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.2)';
+        });
+    }
+}
+
+function showTechDetails(techName) {
+    const techDetails = {
+        'Android': 'Native Android development with Kotlin/Java for BLE and Wi-Fi Direct integration',
+        'Node.js': 'Backend API server with Express.js and WebSocket support',
+        'Ethereum Blockchain': 'Smart contracts for IMEI registration and verification',
+        'Bluetooth LE': 'Low-energy scanning for device discovery and communication',
+        'Wi-Fi Direct': 'Peer-to-peer networking for offline device detection',
+        'React': 'Frontend dashboard with real-time updates and data visualization',
+        'MongoDB': 'NoSQL database for location data and device information'
+    };
+    
+    // Create modal or notification with tech details
+    const details = techDetails[techName] || 'Advanced technology implementation';
+    console.log(`${techName}: ${details}`);
+}
+
+function showFeatureDetails(featureName) {
+    const featureDetails = {
+        'Mesh Network Detection': 'Decentralized device detection using community-powered scanning',
+        'Blockchain IMEI Recording': 'Tamper-proof IMEI registration on Ethereum blockchain',
+        'Real-time Location Tracking': 'Continuous location updates with GPS and network triangulation',
+        'End-to-End Encryption': 'AES-256 encryption for all communication channels',
+        'Battery Efficient Scanning': 'Optimized BLE scanning algorithms for minimal power consumption',
+        'Offline-First Operation': 'Local caching and peer-to-peer communication without internet dependency'
+    };
+    
+    // Create modal or notification with feature details
+    const details = featureDetails[featureName] || 'Advanced security and tracking features';
+    console.log(`${featureName}: ${details}`);
+}
+
+// Add research section to navigation
+function updateNavigation() {
+    const navLinks = document.getElementById('nav-links');
+    if (navLinks) {
+        const researchLink = document.createElement('li');
+        researchLink.innerHTML = '<a href="#research">Research</a>';
+        
+        // Insert before contact link
+        const contactLink = navLinks.querySelector('li:nth-last-child(2)');
+        if (contactLink) {
+            navLinks.insertBefore(researchLink, contactLink);
+        }
+    }
+}
+
+// Enhanced Console Messages
 function addConsoleMessages() {
     const messages = [
         'Initializing portfolio...',
         'Loading awesome projects...',
         'Compiling skills...',
         'Deploying creativity...',
-        'Ready for action!'
+        'Ready for action!',
+        'npm install success',
+        'git pull origin main',
+        'Building production bundle...',
+        'Server listening on port 3000'
     ];
     
     let messageIndex = 0;
     const terminalText = document.querySelector('.terminal-text');
+    const consoleOutput = document.getElementById('console-output');
     
-    if (terminalText) {
+    if (terminalText && consoleOutput) {
         setInterval(() => {
             messageIndex = (messageIndex + 1) % messages.length;
-            terminalText.style.opacity = '0';
             
+            // Update main terminal text
+            terminalText.style.opacity = '0';
             setTimeout(() => {
                 terminalText.textContent = messages[messageIndex];
                 terminalText.style.opacity = '1';
             }, 300);
-        }, 3000);
+            
+            // Add to console output occasionally
+            if (Math.random() > 0.7) {
+                const randomCommand = [
+                    'git status',
+                    'npm run build',
+                    'docker-compose up',
+                    'pytest tests/',
+                    'python manage.py migrate'
+                ][Math.floor(Math.random() * 5)];
+                
+                const commandLine = document.createElement('div');
+                commandLine.className = 'console-line';
+                commandLine.innerHTML = `
+                    <span class="console-prompt">$</span>
+                    <span class="console-command">${randomCommand}</span>
+                `;
+                
+                const resultLine = document.createElement('div');
+                resultLine.className = 'console-line';
+                resultLine.innerHTML = `
+                    <span class="console-success">✓ Command executed successfully</span>
+                `;
+                
+                consoleOutput.appendChild(commandLine);
+                consoleOutput.appendChild(resultLine);
+                
+                // Keep only last 5 lines
+                const lines = consoleOutput.querySelectorAll('.console-line');
+                if (lines.length > 10) {
+                    lines[0].remove();
+                    lines[1].remove();
+                }
+                
+                consoleOutput.scrollTop = consoleOutput.scrollHeight;
+            }
+        }, 4000);
     }
 }
 
@@ -171,25 +684,6 @@ function animateCodeStats() {
                 stat.textContent = currentNumber + '+';
             }, 30);
         }
-    });
-}
-
-// Floating Code Animation
-function animateFloatingCode() {
-    const floatingCodes = document.querySelectorAll('.floating-code');
-    
-    floatingCodes.forEach((code, index) => {
-        const duration = 6 + index * 2;
-        const delay = index * 0.5;
-        
-        code.style.animation = `float ${duration}s ease-in-out ${delay}s infinite`;
-        
-        // Add random movement
-        setInterval(() => {
-            const randomX = Math.random() * 20 - 10;
-            const randomY = Math.random() * 20 - 10;
-            code.style.transform = `translate(${randomX}px, ${randomY}px)`;
-        }, 3000 + index * 1000);
     });
 }
 
@@ -596,22 +1090,21 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize all animations and effects
     setTimeout(() => {
         typeText();
-        initBinaryRain();
         initEnhancedParticles();
         updateScrollProgress();
         fadeInOnScroll();
         fetchGitHubStats();
         initPageTransitions();
         
-        // New programmer-themed features
-        enhanceNavigation();
-        initGlitchEffects();
+        // Professional features
         animateSkillBars();
         enhanceProjectCards();
         addConsoleMessages();
         animateCodeStats();
-        animateFloatingCode();
         initKeyboardShortcuts();
+        initDeveloperConsole();
+        initResearchSection();
+        updateNavigation();
     }, 1600);
 });
 
