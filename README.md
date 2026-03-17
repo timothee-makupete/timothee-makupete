@@ -72,14 +72,14 @@
 
 ## 💼 Experience
 
-**ICT Tutor** @ Mzuzu International Academy *(2025-Present)*
+**ICT Tutor** @ Mzuzu International Academy *(4 months)*
 - Deliver ICT curriculum (programming, networking, cybersecurity); mentor student dev projects (3 selected for regional comps)
 - Integrate AI tools into learning, improving engagement by 40%
 
 **Backend Developer** @ Capsulcode Technologies *(2023-2024)*
-- Architected scalable systems with Docker/K8s serving 10k+ daily users
+- Architected scalable systems with Docker/K8s serving 2k+ daily users
 - Implemented CI/CD reducing deployment time by 60%; optimized DB queries for 40% faster response
-- Built REST/GraphQL APIs handling 50k+ daily requests at 99.9% uptime
+- Built REST/GraphQL APIs handling 3k+ daily requests at 99.9% uptime
 
 **Web Developer** @ KwachaLabs Organisation *(2022-2023)*
 - Developed microservices with Docker, improving scalability by 200%
@@ -89,21 +89,21 @@
 
 ## 🏆 Featured Projects
 
-**🤖 MSCE ChatBolt** – AI Learning Platform (10k+ students)
+**🤖 MSCE ChatBolt** – AI Learning Platform (2k+ students)
 `FastAPI` `React` `TensorFlow` `K8s` `AWS`
-- Custom AI models on Malawi syllabus (85% accuracy); 5k+ concurrent users
+- Custom AI models on Malawi syllabus (85% accuracy); 1k+ concurrent users
 - Adaptive learning algorithms improved test scores by 25%
 → [msce-chatbolt.netlify.app](https://msce-chatbolt.netlify.app/)
 
 **🏫 ScooVerse** – SaaS School Management (100+ schools)
 `React` `Django` `PostgreSQL` `Docker` `AWS`
-- Multi-tenant system for 50k+ users; reduced admin workload by 60%
+- Multi-tenant system for 5k+ users; reduced admin workload by 60%
 - Real-time notifications & analytics dashboards
 → [scoolverse.netlify.app](https://scoolverse.netlify.app/)
 
 **🏨 Akuka Lodge** – Hotel Management (500+ daily bookings)
 `Vue.js` `Django` `PostgreSQL` `AWS`
-- Real-time booking with 99.9% availability; $50k+ monthly transactions
+- Real-time booking with 99.9% availability; MK30k+ monthly transactions
 - RBAC for 50+ staff members
 → [akuka.vercel.app](https://akuka.vercel.app/)
 
@@ -115,7 +115,7 @@
 ---
 
 ## 📈 Key Achievements
-⚡ 60% faster deployments | 🚀 10k+ daily users | 💰 $50k+ monthly txns | 📚 100+ schools | 🎓 500+ students mentored | ☁️ 99.9% uptime
+⚡ 60% faster deployments | 🚀 2k+ daily users | 💰 $50k+ monthly txns | 📚 10+ schools | 🎓 500+ students mentored | ☁️ 99.9% uptime
 
 ---
 
