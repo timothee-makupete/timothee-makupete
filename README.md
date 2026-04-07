@@ -73,49 +73,34 @@
 ## 💼 Experience
 
 **ICT Tutor** @ Mzuzu International Academy *(4 months)*
-- Deliver ICT curriculum (programming, networking, cybersecurity); mentor student dev projects (3 selected for regional comps)
-- Integrate AI tools into learning, improving engagement by 40%
+- Deliver ICT curriculum (programming, networking, cybersecurity); mentor student dev projects selected for regional competitions
+- Integrate AI tools into learning, improving engagement significantly
 
 **Backend Developer** @ Capsulcode Technologies *(2023-2024)*
-- Architected scalable systems with Docker/K8s serving 2k+ daily users
-- Implemented CI/CD reducing deployment time by 60%; optimized DB queries for 40% faster response
-- Built REST/GraphQL APIs handling 3k+ daily requests at 99.9% uptime
+- Architected scalable systems with Docker/K8s serving users across Malawi
+- Implemented CI/CD reducing deployment time; optimized DB queries for faster response
+- Built REST/GraphQL APIs with high availability
 
 **Web Developer** @ KwachaLabs Organisation *(2022-2023)*
-- Developed microservices with Docker, improving scalability by 200%
-- Implemented AWS auto-scaling, reducing costs by 30%
+- Developed microservices with Docker, improving scalability
+- Implemented AWS auto-scaling, reducing costs
 
 ---
 
 ## 🏆 Featured Projects
 
-**🤖 MSCE ChatBolt** – AI Learning Platform (2k+ students)
-`FastAPI` `React` `TensorFlow` `K8s` `AWS`
-- Custom AI models on Malawi syllabus (85% accuracy); 1k+ concurrent users
-- Adaptive learning algorithms improved test scores by 25%
-→ [msce-chatbolt.netlify.app](https://msce-chatbolt.netlify.app/)
-
-**🏫 ScooVerse** – SaaS School Management (100+ schools)
-`React` `Django` `PostgreSQL` `Docker` `AWS`
-- Multi-tenant system for 5k+ users; reduced admin workload by 60%
-- Real-time notifications & analytics dashboards
-→ [scoolverse.netlify.app](https://scoolverse.netlify.app/)
-
-**🏨 Akuka Lodge** – Hotel Management (500+ daily bookings)
-`Vue.js` `Django` `PostgreSQL` `AWS`
-- Real-time booking with 99.9% availability; MK30k+ monthly transactions
-- RBAC for 50+ staff members
-→ [akuka.vercel.app](https://akuka.vercel.app/)
-
-**🔥 Capsulcode Technologies** – Company Portfolio
-`Vue.js` `Tailwind` `Docker` `Netlify`
-- 95+ Lighthouse score; PWA; CI/CD with GitHub Actions
-→ [capsulcode.netlify.app](https://capsulcode.netlify.app/)
+| Project | Description | Status |
+|---------|-------------|--------|
+| **Trackit** | A stolen phone tracking system leveraging AI device fingerprinting, mesh networking, and offline-first communication to recover lost and stolen devices across Malawi and beyond. | 🔨 In Development |
+| **MSCE ChatBolt** | AI learning platform with custom models trained on Malawi syllabus content. Features adaptive learning algorithms and supports concurrent users. Tech Stack: FastAPI, React, TensorFlow, Kubernetes, AWS → [msce-chatbolt.netlify.app](https://msce-chatbolt.netlify.app/) | ✅ Live |
+| **ScooVerse** | SaaS school management system with multi-tenant architecture. Includes real-time notifications, analytics dashboards, and streamlined administrative workflows. Tech Stack: React, Django, PostgreSQL, Docker, AWS → [scoolverse.netlify.app](https://scoolverse.netlify.app/) | ✅ Live |
+| **Akuka Lodge** | Hotel management platform with real-time booking engine, payment processing, and role-based access control for staff members. Tech Stack: Vue.js, Django, PostgreSQL, AWS → [akuka.vercel.app](https://akuka.vercel.app/) | ✅ Live |
+| **Capsulcode Technologies** | Company portfolio website with PWA support and optimized performance scores. Features CI/CD pipeline with GitHub Actions. Tech Stack: Vue.js, Tailwind CSS, Docker, Netlify → [capsulcode.netlify.app](https://capsulcode.netlify.app/) | ✅ Live |
 
 ---
 
 ## 📈 Key Achievements
-⚡ 60% faster deployments | 🚀 2k+ daily users | 💰 $50k+ monthly txns | 📚 10+ schools | 🎓 500+ students mentored | ☁️ 99.9% uptime
+⚡ Faster deployments | 🚀 Scalable systems | 💰 Payment processing systems | 📚 Education technology | 🎓 Student mentorship | ☁️ High availability infrastructure
 
 ---
 
